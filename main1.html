@@ -1,0 +1,1285 @@
+
+
+ <body style="background:linear-gradient(black,lightblue,black,black,black)"></body>
+
+ 
+
+<!Doctype html>
+  <html>
+      <head>
+          <title>mysure.info</title>
+          <link rel ="stylesheet"href="materialize/css/materialize.min.css">
+          <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+          <link rel="stylesheet"type="text/css" href="subs-style.css">
+          <meta lang="eng-UG">
+          
+          <meta charset ="utf-8">
+          <link rel ="stylesheet" href="style.css"/>
+          <meta name="viewport"content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0">
+          <meta name="viewport"content="width=device-width,initial-scale=1">
+          
+         
+     
+         
+           
+          
+          
+         
+          
+          
+          <style type="text/css">
+              
+              
+              *{
+                  margin:0;
+                  padding:0;
+                  box-sizing:border-box;
+              }
+              body{
+                  margin:0px;
+                  padding:0;
+              }
+              <!---img:hover{
+              max-width:100%;
+              height:auto%;--->
+                  
+              }
+              
+              body{
+              <!____
+                 margin:20px auto;
+                  font-family:"Lato";
+                  font-weight:300;
+              }
+              ---->
+              form{
+                  padding:15px 2px;
+                  display:flex;
+                  gap:10px;
+                  justify-content:center;
+              }
+              
+              form label{
+                 font-size:1.5rem;
+                 font-weight:bold; 
+                  
+              }
+              input{
+                 font-family:"Lato" ;
+                  
+              }
+              a{
+                color:#0000ff;
+                text-decoration:none;
+              }
+              
+              
+            a:hover{
+                
+                text-decoration:underline;
+            }  
+            
+         #wrapper,#loginform{
+            margin:0 auto;
+            padding-bottom:25px;
+            background:#eee;
+            width:600px;
+            max-width:100%;
+            border:2px solid #212121;
+            border-radius:4px;
+              
+              
+              
+          } 
+          #loginform{
+              
+              padding-top:18px;
+              text-align:center;
+               
+          } 
+        #loginform p{
+            
+            padding:15px; 25px;
+            font-size:1.4rem;
+            font-weight:bold;
+        } 
+        #chatbox{
+            text-align:left;
+            margin:0 auto;
+            margin-bottom:25px;
+            padding:10px;
+            background:#fff;
+            height:300px;
+            width:530px;
+            border:1px solid #a7a7a7;
+            ovrflow:auto;
+            border-radius:4px;
+            border-bottom:4px solid #a7a7a7;
+            } 
+            #usermsg{
+                
+                flex:1;
+                border-radius:4px;
+                border:1px solid #ff9800;
+            }
+            
+            #name{
+                border-radius:4px;
+                border:1px solid #ff800;
+                padding:2px 8px;
+            }
+            #submitmsg,#enter{
+                
+                background:#ff9800;
+                border:2px solid #e65100;
+                color:white;
+                padding:4px 10px;
+                font-weight:bold;
+                border-radius:4px;
+            }
+            .error{
+                color:#ff0000;
+            }
+            #menu{
+                padding:15px;
+                display:flex;
+            }
+            #menu p.welcome{
+                flex:1;
+            }  
+            a#exit{
+                color:white;
+                background:#c62828;
+                padding:4px 8px;
+                border-radius:4px;
+                font-weight:bold;
+            }
+              .msgln{
+                  
+                  margin:005px;
+              }
+              .msgln span.left-info{
+                  
+                  color:orangered;
+              }
+              .msgln span.chat-time{
+                  color:#666;
+                  font-size:60%
+                   vertical-align:super;
+              }
+              .msgln b.user-name,.msgln b.user-name-left{
+                  
+             font-weight:bold;
+             background:#546e7a;
+             color:white;
+             padding:2px 4px;
+             font-size:90%;
+             border-radius:4px;
+             margin 0 5px 00;
+                  
+              }
+              .msgln b.user-name-left{
+                  
+                background:orangered;  
+              }
+              
+              
+<!----LIKE BUTTON------>
+@import
+url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap");
+
+.like_button{
+    padding:10px 15px;
+    background:#blue;
+    font-size:18px;
+    font-family:"open sans"sans-serif;
+    border-radius:5px;
+    color:#e8efff;
+    outline:none;
+    border:none;
+    cursor:pointer;
+    
+}
+
+              
+              
+              
+              #main1{
+                  width:400px;
+                  height:200px;
+                  border:1px solid #c3c3c3;
+                  display:flex;
+                  flex-direction:row;
+                  
+              }
+              #main1 div{
+                  width:100%;
+                  height:250px;
+                  float:center;
+              }
+              
+              #div2{
+                  
+                  background-color:lightblue;
+                  width:100%;
+                  height:201px;
+              }
+              h2{
+                  text-align:center;
+                  color:white;
+                  font-family:Times New Roman;
+                  text-shadow:2px 2px 3px black;
+              }
+              
+              
+             <!--- body{
+                  background:linear-gradient(lightblue,black,blue)--->
+                  
+                  
+              }
+              
+              p{
+                  font-family:Times New Roman;
+                  
+              }
+              li,a{
+                  color:white;
+              }
+              #div3{
+                  float:right;
+                  background:blac;
+                  width:20px;
+                  }
+                  table,th,td{
+                  border:1px solid black;
+                  width:100%;
+                  background:lightblue;
+                 font-size:14px;
+                 font-family:Times New Roman
+                  border-radius:15px;
+                  padding:0px;
+                  }
+           #div7{
+               max-width:100%;
+               height:200;
+               background:color:black;
+           }
+           button:hover{
+               background:silver;
+               transition-duration:3s;
+           }
+           #divk{
+               float:center;
+           }
+           img{
+               width:316px;
+               height:250px;
+               padding:px;
+           }
+           p{
+               word-wrap:break-word;
+           }
+           textarea{
+               background:;
+           }
+           #data,#username,#useremail{
+               background :;
+           }
+           input[type=text],input[type=email]{
+               width:60%;
+               margin:8px 0;
+               display:inline-block;
+               border:1px solid #ccc;
+               box-sizing:border-box;
+           }
+              
+              button{
+                  background:
+                  font-size:
+                  color:
+                  padding:
+                  cursor:pointer;
+              }
+              .form{
+                  background-color:#fefefe;
+                  margin:5% auto 15% auto;
+                  padding:16px;
+                  border:1px solid #888;
+                  width:80%
+                  -webkit-animation:animatezoom 0.6s;
+                  
+              }
+              @keyframes animatezoom{
+                  from{
+                      transform:scale(0)
+                  }
+              }
+  :root{
+      --yellow:#feb60a;
+      --red:#ff0062;
+      --blue:#00dbf9;
+      --violet:#da00f7;
+  }  
+ body{
+      margin:;
+      display:;
+      justify-content:center;
+      height:100vh;
+      background-color:#1a1940;
+      background-image:linear-gradient(180deg,rgba(0,0,0,0.15)0%,rgba(0,153,212,0)calc(15%+100px),rgba(0,99,138,0)calc(85%+100px),rgba(0,0,0,0.15)100%);
+  }  
+  div.container{
+      display:flex;
+      justify-content:center;
+      align-items:center;
+  }  
+  div>div{
+      width:vw;
+      height:vw;
+      border-radius:%;
+      margin:vw;
+      background-image:linear-gradient(145deg,rgba(255,255,255,0.5)0%,rgba(0,0,0,0)100%);
+      animation:bounce 1.5 0.5s linear infinite;
+  }   
+  .yellow{
+      background-color:var(--yellow);
+  }
+  .red{
+      background-color:var(--red);
+      animation-delay:0.1s;
+  }
+  .blue{
+      background-color:var(--blue);
+      animation-delay:0.25;
+  }
+  .violet{
+      background-color:var(--pink);
+      animation-delay:0.5s;
+  }
+  @keyframes bounce{
+      0%,
+      50%,
+      100%{
+          transform:scale(1);
+          filter:blur(0px);
+             
+      }
+      25%{
+          transform:scale(0.6);
+          filter:blur(3px);
+      }
+      75%{
+          filter:blur(3px);
+          transform:scale(1.4);
+      }
+  }
+  <script type="text/javascript"src="http://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script>
+      $(window).on('load',function(){
+      $(".container").fadeOut("slow");
+          
+          
+      }
+          
+          );
+  </script>--->
+  
+  .dd{
+      position:relative;
+      display:inline-block;
+      
+      
+  }
+  .dd-content{
+      position:absolute;
+      display:none;
+  }
+  .dd:hover>.dd-content{
+      display:block;
+      background:blue;
+      transition-duration:8s
+  }
+  .wp{
+      width:25px;
+      margin-top:5px;
+      
+  }
+   wpbtn{
+       margin-right:50%;
+       margin-left:50%;
+       border:none;
+       background:black;
+   }
+   @font-face{
+       font-family:myFont;
+       src=url('fonts/Graduate-Regular.ttf');
+   }
+   h1{
+   
+   font-family:myFont;
+       
+   }
+  #header,#footer{
+       display:none;
+   }
+   .title-desc-wrapper.has-main-image{
+       display:none;
+   }
+   #cart #banner-area-wrapper{
+       display:none;
+   }
+   #banner-area-wrapper{
+       display:none;
+   }
+   .page-banner-wrapper{
+       display:none;
+   }
+  video{
+      width:316px;
+      height:250px;
+      background-color:silver;
+      color:red;
+      
+  }
+  audio{
+      max-width:200px;
+      height:200px;
+      background-color:silver;
+      color:red;
+  }
+  html:active{
+      background:no;
+  }
+ .container{
+     max-width:100vw;
+     height:50vw;
+     position:relative;
+ }  
+ 
+ @media only screen and (min-width:480px) {
+     a,tt,li,table,th,td,tr,div,br,small,big,form,marquee,style,img,href tel,i,fa fa{
+        
+         font-size:110%;
+         p{
+             font-size:130%;
+             color:;
+             
+         }
+        img{
+            width:100%;
+        } 
+     }
+     img{
+         width:100%;
+         height:auto;
+     }
+ }
+    
+    @media only screen and(min-width:480px) {
+        img:hover{
+            width:300px;
+        }
+    } 
+  <!---  img:hover{
+        width:100px;
+        height:250px;
+        transition-duration:5s;
+    }---->
+       
+       input:hover{
+           background:gray;
+           transition-duration:5s;
+           position:fix;
+       }
+      <!--img:hover{
+           width:50%;
+           height:50%;--->
+       }
+      div22{
+          margin:0px;
+          
+      }
+  
+  </style>
+  
+  <link rel ="shortcut icon"href="https://www.dropbox.com/scl/fi/oquophikc2q1ebkklbjhq/favicon-16×16.png?rlkey=bg7d6n38fc7o37wyb88hvykna&raw=1">
+  
+  <!---<scrip type='text/javascript'src='//pl23317227.cpmrevenuegate.com/39/78/dc/3978dc519214e6e90f17cecd6f3d0b6a.js'></script>--->
+  </head>
+  <body> 
+     <div style="background-image:linear-gradient(darkblue,darkblue,darkblue);height:600px;border-radius:0px 0px 15px 3px;padding:px;border-shadow:0 0 15px 3px white">
+         
+         <div22 style="text-align:center;font-family:'Roboto Mono',monospace;font-size:25px;color:white;position:fixed;float:center;background:silver;padding:5px;border-radius:0px;width:100%;height:12%;text-shadow:1px 0px white">Mysure <span style="font-family:'Comic Neue',cursive;text-shadow:1px 0px white">.info</span></div22>
+          
+      <b style="text-align:center;font-family:myFont;"><p style="color:white;text-align:center;border-shadow:1px 2px 2px white;text-shadow:0px 0px white"><big style="background-color:blac;border:radius:50px;text-align:center"><tt><!--m.info --></tt><span style="font-size:13px;text-align:left"></span></span><!--<tt>online</tt> <small style="background-color:gree;color:lime;font-size:46px">.---><!--</small></small></span> <br>"text-align:center;padding:2px;background:blac;border-radius:5px;border-shadow:2px 2px white;width:100%"><i style="color:white;text-align:center;padding:4px;color:white" class ="fa fa-share"><br></i></a>---></p>
+      
+      <!---<script async src="https://cse.google.com/cse.js?cx=0160015a8c32842df"></script>
+          <div style="border-radius:5px;background-color:darkblue" class="gcse-search"></div>--->
+      
+      
+      <br><br><h style="color:silver;width:100%"><br>
+     
+     
+      
+      <p style="text-align:center;color:white;background:linear-gradient(white,white);padding:4px;font-size:13px;width:23%;border-radius:8px;hover:background:maroon"><tt style="text-align:center;border-radius:10px"><a  style="color:black;text-align:center;font-family:'Roboto Mono',monospace;text-shadow:1px 0px silver;padding:4px" href="http://www.appcreator24.com/app2789329-snvg3t">GETAPK</a></tt></p>
+     
+      
+      
+      
+      <br></big><big>
+          
+          
+          <p style="color:lightblue;font-size:14"><tt><!--INT---></tt></p>
+          <figure>
+          <img style="border-radius:50px;height:100px;width:100px;padding:10px;background:Alice;" src="https://www.dropbox.com/scl/fi/oobg8xsbojb9qqi6b6rhc/M.ug.png?rlkey=fars2zy43y3vpvuozk9wa0vrc&raw=1"/><br>
+          
+          </figure>
+         <p style="color:lightblue;font-size:14px"><tt><!--mysure--></tt></p><p style="text-align:center;font-size:14px"><tt style="color:pink;text-align:center"><a style="color:blue;text-shadow:0px 0.1px whit;outline-style:none;padding:1px;background-color:skyble;border-radius:10px" href="https://indah.tiiny.site"><br>refresh </a></tt></p>
+         
+          
+   
+     
+     
+              
+              
+           <div style="top:110px;position:;width:34px;border-radius:5px;padding:14px;outline-style:padding:12px" class ="dd"> 
+               
+              
+             <p style="color:white;text-align:left;font-size:14px;padding:0px"><tt></tt></p> 
+              <span class="dd-button"><p style="color:white;text-align:center;padding:8px;font-size:30px;background:basque;width:12%;border-radius:8px;float:left;padding:0px"><tt style="font-size:11px"></tt><!--<button style="padding:4px;border-radius:5px;background:linear-gradient(white,white);float:lef"></button>---><i style="font-size:22px;padding:10px;outline-style:;border-radius:10px;color:silver;box-shadow:0 0 10px 3px black" class ="fa fa-bars"aria-hidden="true"></i><br><br></p></span>
+              <div style="border-radius:0px 5px 8px;outline-style:out;background:darkblue;box-shadow:0 0 10px 3px white" class="dd-content">
+                  
+                  
+           <small style="font-family:Times New Roman;font-size:13.5px"</><tt>
+               <ul style="padding:5px;" type="none">
+                  <!--- <li><a href="#">ABOUT.ME</a></li><br>--->
+                  
+                  <a href="whatsapp://send?text=https://indah.tiiny.site"data-action="share/whatsapp/share"><i style="font-size:20px;padding:4px" class="fa fa-share"><br></i></a>
+                   <li><a href="https://kola.tiiny.site"><i class="fa fa-spinner fa-spin"></i>JOBS<i class="fa fa-unlok"></i></a></li><br>
+                   <!---<li><a href="https://softground.tiiny.site">MKHO</a></li><br>--->
+                  <li><a href="https://school1.tiiny.site"><i class ="fa fa-spinner fa-spin"></i>DATE<span style="color:gold">ME</span></a></li>
+                   <br>
+                   <li><a></a></li>
+               </ul>
+               </tt>
+               
+              </small> 
+           
+                     
+                  
+                  
+                  
+              </div>
+              </div>
+              
+          
+         
+          <p style="color:white;font-size:15px;text-align:center;text-shadow:0px 0px blac"><small><tt>BUSINESSCONTACTS</tt><br><a href="https://wa.me/+256703840551?text= "><small><tt></tt></small><h2>
+              
+              <small>
+             <li type="none">
+              <i style="color:white;background:green;width:10%;height:%;border-radius:10px;padding:3px" class ="fa fa-whatsapp"></i>
+ </a><a style="text-align:center" href="https://t.me/Segayi"><i style="color:white;background:lightblue;padding:3px;border-radius:10px" class ="fa fa-telegram"></a></i></small>
+ </li></small></h2> 
+          </p><br>
+          
+      </big>
+       </big>  
+       </b> 
+      </p>
+      </div>
+      
+     
+          
+            
+           
+            
+          
+          
+          
+            
+            
+        
+        
+        
+        
+        
+        
+       
+      
+        <br>
+        <div>
+          <ul type="none">
+              <li style="float:right;><a href="mailto:segayiabdul@gmail.com"><p style="float:right;font-size:15px;postion:fixed;padding:0px;color:none"></p></a></li></li><br>
+              <li style="font-family:Times New Roman"></li>
+           <br>
+           <li style="float:righ"><a href="mailto:segayiabdul@gmail.com"><p style="float:right;font-size:35px;position:fixed;padding:0px;"><br style="color:blue"></p></a></li>  
+          </ul>
+          </div>
+          
+          
+          
+        
+          
+     
+         
+         
+         
+        
+             
+             
+         
+         
+         
+         
+        
+          
+          
+          
+          
+          
+          
+          
+        <!--- <div i ="div3">
+             <input style="width:20px;background:black;border-radius:50px;float:center;padding:5px" type="time"<p style="text-align:center"><p style="color:white;text-shadow:2px 1px black"><tt>TIME</tt></p></p><br>
+         </div>--->
+       
+     
+   
+     
+    
+     
+     
+     
+         <p style="color:white;font-family:'Roboto Mono',monospace;text-indent:px;text-align:center">Media screen</Media></Media></Media></Media></Media><i class ="fa fa-file"></i></p>
+          
+          <div>
+         <b> <small><h1 style="font-family:Times New Roman;text-align:center;color:white;font-size:14px;text-shadow:0px 0px none"><tt></h1></small></b>
+          <div style="background:none;overflow-x:auto;border-radius:10px;height:250px">
+          <div id="main1">
+              
+              
+              <!---<div style="background-color:silver;border-radius:4px;color:white;">
+                  <div class ="container">
+                      
+                     <img id ="slider"src=""/> 
+                     
+                   
+                         
+                     
+                  </div>
+                  
+              </div>--->
+              
+             
+              
+              <div style ="background-color:silver;border-radius:4px;color:white;">
+                  <img style="border-radius:4px" src="https://www.dropbox.com/scl/fi/egu4945aicruqaon6nmqx/inshot_20240407_124247954.jpg?rlkey=kqxtiqadox9ryrmsht7wroln6&raw=1"width="400px"height="250"alt="1"/>
+              </div>
+         <div style="background-color:silver;color:white;border-radius:4px">
+         <img src="https://www.dropbox.com/scl/fi/5yyx6vl9fdvy3vzvrg089/inshot_20240407_124026740.jpg?rlkey=unppee2apxupuciy50021o02e&raw=1"width="400px"height="250px"alt="2"/>   
+         </div>
+         
+        <div style="background-color:silver;color:white;border-radius:px">
+            <img src="https://www.dropbox.com/scl/fi/dy0h10epto10mfsuqw2b9/inshot_20240407_124522035.jpg?rlkey=q3l5qvlvglvqwn6h58ncwy57g&raw=1"width="400px"height="250px"alt="3"/>
+        </div>
+        <div style="background-color:silver;color:white;border-radius:px">
+            <img src="https://www.dropbox.com/scl/fi/8jyx6u2rb160a8okwo56x/Inshot_20240407_124753577.jpqg?rlkey=eglgxtn6nyt3yerw7cg1mkl39&raw=1"width="400px"height="250px"alt="4"/>
+        </div> 
+        <div style="background-color:silver;color:white;border-radius:px">
+            <img src="https://www.dropbox.com/scl/fi/xcqf6n09w7v2auc8ot09d/inshot_20240407_125009344.jpg?rlkey=p2zi66eizwndjopi4k98u80pt&raw=1"width="400px"height="250px"alt="5"/>
+        </div> 
+        <div style="background-color:silver;color:white;border-radius:px">
+            <img src="https://www.dropbox.com/scl/fi/t1ioh9yl495xcrynu10tk/inshot_20240407_125150232.jpg?rlkey=11kkwl5g6wuj7lr0xzhh70eps&raw=1"width="400px"height="250px"alt="6"/>
+        </div> 
+        <div style="background-color:silver;color:white;border-radius:px">
+            <img src="https://www.dropbox.com/scl/fi/q9o8f6kvadhlvkgm135z5/inshot_20240407_125440160.jpg?rlkey=rqvu2ycnq37nzzfn3ewi6b4be&raw=1"width="400px"height="250px"alt="7"/>
+        </div> 
+        <div style="background-color:silver;color:white;border-radius:px">
+            <img src="http://www.dropbox.com/scl/fi/r49sgfyc02fg6ut4l8jn7/Inshot_20240407_125652480.jpg?rlkey=lv3dlkrfs7uelcy5580lp9448&raw=1"width="400px"height="250px"alt="8"/>
+        </div>
+        <!---<div style="background-color:silver;color:white;border-radius:4px">
+            <img src="https://www.dropbox.com/scl/fi/gt51ao9q4os3bvqll3fa7/inshot_20240407_130407664.jpg?rlkey=m3hila3hvm87qvuymdf9vjonu&raw=1"width="400px"height="250px"alt="9"/>
+      </div>  --->
+      
+     <!--- <div style="background-color:silver">soon
+          
+      </div>--->
+      
+      
+      
+      
+      
+     
+     <div style="background:silver"> 
+    <video src="video.mp4"controls>sorry your device cant play</video> 
+    </div> 
+     
+    <div style="background:white">
+        <video src=" video.mp4" controls>sorry can't play</audio>
+        
+    </div> 
+   <div style="background:silver">
+        <!---<iframe src="https://us05web.zoom.us/j/2818543874?pwd=uultuuBRzrWz9quRRQChcFe8Un3Hom.1/meetingsdk"allow="camera;microphone;display-capture" style="width:400px;height:100%">
+            
+        </iframe>--->
+    </div>
+    
+          
+        <div style="background:silver;width:400 px;height:250px">
+            
+         <video src="video.mp4" controls></video> 
+            
+            
+        </div>
+        
+    
+        </div>
+        
+        
+        
+              
+              
+          
+          <script>
+              function myFunction(){
+              document.getElementById('main')
+              .style.flexDirectin="column-reverse";  
+                  
+              }
+          </script></div>
+          
+     
+         
+          <!---This code below is for moving images -->
+          
+    <small>   
+   <p style="text-align:center;font-size:30px"></p>       
+  <!----<small style="padding:10px;color:white;font-size:13px;text-align:center;text-shadow:1px 0px"> <b style="color:gold">NOTE:</b><p><tt style="text-align:center">If you have aJob or News emailus<a href="mailto:segayiabdul377@gmail.com"><tt style="background:coral;border-radius:50px;padding:1px;word-spacing:0px">@gmail</tt></a> so that we publish it immediately!! </tt></tt></p></small>--->
+  
+  </small>
+  <P style ="text-align:center;color:silver;background:black;padding:10px;height:40px;font-size:14">SUBSCRIBE FOR NEWSLETTER
+  
+  
+  <!--<marquee scrollamount="2"></marquee>--> </P>
+  
+ <form class="form container">
+  
+  <small style="padding:10px">
+      
+      <label style "padding:10px"><b>Name</b></label>
+      <input type ="text"name="email"required>
+      <br>
+      <label style="padding:10px"><b>Email</b></label>
+      <input type ="email"name="email"required>
+      
+     <!--- <script src="https://static.elfsight.com/platform/platform.js"async></script>
+      <div class="elfsight-app-59f2e96c-4d07-41b9-b03a-7ff911fb0f59"data-elfsight-app-app-lazy></div>--->
+      <button style="border-radius:50%" type ="submit"><h1 style="float:right;color:coral;padding:4px"><i style="color"gold" class="fa fa-bell"></i></h1></button>
+  </small>
+  </form>
+  </tt>
+  <p style="color:yellow;padding:8px;background:green;width:50%;border-radius:10px"><tt>special offer&nbsp<i class="fa fa-star"></i></tt></p>
+  
+  
+  
+  
+  
+  <p style="color:white;padding:10px;text-shadow:1px 0px black;font-size:14px"><tt><span style="color:black"><i class="fa fa-online"></i></span><br><a href="https://www.profitablegatecpm.com/pjhamd6s?key=8c720c25733c12eb964be5717c27b62a"><span style="color:blue;padding:3px;border-radius:5px;background-color:silver">Join <span style="color:red">18+</span></span> <span style="color:silver;font-size:17px;text-shadow:1px 1px black"></span>&nbsp<a href="https://www.profitablegatecpm.com/pjhamd6s?key=8c720c25733c12eb964be5717c27b62a"><span style="color:blue;background-color:silve;padding:3px;border-radius:5px"> <span style="color:red"></span></span></a></a></tt></p>
+  
+  
+  
+  <br><br>
+  <p style="padding:5px;font-size:14px;color:white;text-shadow:1px 1px black"><t>MARKETING AREA</tt></p>
+  <div style="background:linear-gradient(black,lightblue);height:200px" id ="div2">
+      
+      
+<marquee style="height:200px;border-radius:px" behavior="alternate" onmouseout="this.start();"onmouseover="this.stop();" scrollamount="1">
+             
+           
+                 <img style="width:200px;border-radius:px"  src="https://www.dropbox.com/scl/fi/30py9vuapgxf4x0c63b9r/inshot_20240407_133310228.jpg?rlkey=lmrruo0v5tmqq0ckki4j0mnwj&raw=1"width="50px"height="200px"/>
+                <img style="width:200px;border-radius:px" src="https://www.dropbox.com/scl/fi/1ye6a79lsuzzwqs3fs6pf/inshot_20240407_132606086.jpg?rlkey=tsg5c2mwapt755ervfdvrotgv&raw=1"width="50px"height="200px"/>
+                
+                </div>
+                </marquee><button style="padding:5px;border-radius:50px;text-align:justify"><i style="color:gray" class="fa fa-play"></i></button><tt style="color:white">Resume</tt> <br> 
+             
+          
+          <!---THIS CODE BELOW IS FOR BUTTON-->
+          
+      
+ <br>
+      <!-----
+      <iframe width="300"height="295"
+      src="https://www.youtube.com/embed/tgbNymz7vqY?autoplay=1&mute=1">
+          
+  </iframe>  
+  ---->
+     
+        
+        <!---<script>
+            alert(' It is still under development Not yet officially released')
+        </script>---->
+      
+        
+        
+        
+        
+    <div style="background:linear-gradient(lightblue,black,lightblue,black)">
+        
+        <br>
+       <small><h3 Style="text-align:center;color:black;font-family:Times New Roman;padding:10px;font-size:17px"><i style="color:brown;font-size:25px;text-shadow:2px 1px black"><span style="color:black"></span>SGW</i> INTERNATIONAL <br>BOMBASH-UG<br>
+       <p style="color:coral;font-size:10px"><tt>FOUNDER-VJ</tt></p>
+       <p style="font-size:30px;color:coral"><i><i  class="fa fa-microphon">🎤</i></i></p>
+       <img style="width:70px;height:70px;border-radius:50%;background:white" src="https://www.dropbox.com/scl/fi/nzo5jb46jeae7ehytp5u7/inshot_20240412_074327595.jpg?rlkey=jdosv0ebw0sy4xwc5ivj93ksx&raw=1"/>
+       
+       <br><p style="font-size:20px"></p></small>
+       <small><h5 style="text-align:center;font-family:Times New Roman;font-size:14px"><br><br>HEAD OF THE TABLE <br>CURRENT<br><span style="color:Aliceblue">2025</span></h5></small><br>
+       
+       <img style="width:300px;height:200px;border-radius:15px;box-shadow:0 0 10px 3px" src="https://www.dropbox.com/scl/fi/5bqcfihpnpt3t5y38pk8u/inshot_20230923_122155440.jpg?rlkey=nqouohz9szefqk4sdxyqyz1qk&raw=1"/>
+       
+         <br><br>
+         <!---<table style="border-radius:10px;color:black;background:b;padding:5px;font-size:14px;box-shadow:0 0 10px 3px">
+             
+             <tr style="border-radius:10px;padding:px">
+                 <th style="text-align:left">Name</th>
+                 <th>Age</th>
+                 <th>weight</th>
+                 <th>Trophy</th>
+                 </tr>
+                 <tr>
+                     <td style="text-align:left">kapeeka</td>
+                     <td>24</td>
+                     <td>65kg</td>
+                     <td>champion</td>
+                 
+          
+             </tr>
+             
+             
+             
+         </table><br>--->
+         
+         <div style="background:lightblue;padding:10px;border-radius:10px;max-width:100%;float:center;box-shadow:0 0 10px 3px">
+             <small><h4 style="text-align:center;font-family:Times New Roman;color:beige;background-color:silver;padding:10px;border-radius:2px"><tt>ON MONDAY</tt></h4></small><br>
+             <small><p style="color:black;font-size:16px;font-family:'Roboto Mono',monospace;"><small><t>Bianca <span style="color:beige">Vs</span> Livmorgan<br><br>sethrollins <span style="color:beige">Vs</span> Nakamola<br><br>Hamis Diamond <span style="color:beige">Vs</span> coolman<br><br></p></small><hr><br><br><!---<small>FULL VIDEO LIVE ON  T.V<br>1<small>st-</small>Dec-2025<br>SGW<br>---><tt style="color:blue;background:silve;padding:5px;padding:5px;border-radius:5px"><br>For more call <marque style="width:70px;border-radius:50%;padding:15px;height:70px" behavior="alternate" scrollamount=1><a style="font-size:19px;background-color:green;border-radius:18px;padding:7px;box-shadow:0 0 15px 3px white" href="tel:+256708777497"><i style="font-size:28px;color:white" class ="fa fa-phone"></i></a></marquee></tt></small><br><br><br></small>
+                 
+                 
+            
+             
+         </div>
+         
+         
+         
+         
+        
+        <!---
+         <div style="background-color:white;border-radius:none;">
+         <small>
+             <p style="outline-style:auto;padding:8px;background-image:linear-gradient(black,silver);color:beige;font-size:20px;text-shadow:1px 0px gre;height:px"><tt>HYPERS-KIDS AFRICA<br><small style="font-size:12px">For more information call<a href ="https://wa.me/+256703176604/?text=WELCOME TO HYPERS MANAGEMENT"><br><i style="font-size:18px;background-color:green;padding:5px;border-radius:10px" class ="fa fa-whatsapp"></i></a></small><br><br>
+             <img style="border-radius:15px;width:288px;height:200px" src="https://www.dropbox.com/scl/fi/dfllc8askvalb3h198r58/inshot_20240412_081620764.jpg?rlkey=pelof77cvgulv4b0ktdbyew7a&raw=1"/>&nbsp<br><br><br>
+             <tt style="font-size:13px">MANAGER COACH MOZE.<br><tt style="font-size:11px">LOCATED SALAAMA ROAD MUNYONYO</tt></tt>
+             
+            --->
+             
+             
+             <small><p style="font-size:10px;color:silve"></p></small></tt><br style="font-size:90px"></p
+         
+         </div>
+         
+         <div style="background-color:lightblue;padding:10px;border-radius:10px">
+             <p style="background-color:beige;padding:10px;border-radius:4px;font-size:17px;text-shadow:0px 0px black;color:black"><tt style="font-size:18px,">SPORTS PRESSURE</tt></p><br><br>
+         <div style ="background:silver;width:65%;border-radius:10px">
+             
+        <small> <h3 style="color:beige;padding:8px"><tt>ATHLETICS</tt></h3>
+         </div>
+         <br><br><tt>kiptegei <span style="color:beige">and</span> Kiprimo<br style="color:blue"><br>
+         
+         <img style="width:200px;height:200px;border-radius:15px;border-radius:15px;box-shadow: 0 0 10px 3px black" src="images.jpg"/>
+         
+         <br><br>
+         Namboole stadium</tt><br>
+         
+         <script src="https://indah.tiiny.site"></script>
+         
+         <br><br>
+         <div style="background:silver;border-radius:10px;width:65%">
+       <h3 style="color:beige;padding:8px"><tt>FOOTBALL</tt> </h3>
+       
+       </div>
+       
+        <br><br><tt>vipers <span style="color:beige">Vs</span> kccA at 3:00pm<br><br>
+        
+        <img style="width:200px;height:200px;border-radius:15px;box-shadow: 0 0 10px 3px black" src="images.jpg"/><br><br>
+        
+        
+        kitende</tt><br>
+        <!---<br>UGANDA PL TABLE---->
+        <!----
+        <table style="border-radius:8px;color:red;background:black">
+            <tr>
+                <th>CLUB</th>
+                <th>POINTS</th>
+                
+            </tr>
+            <tr>
+                <td>vipers</td>
+                <td>22</td>
+                
+                
+            </tr>
+            <tr>
+                <td>kcca</td>
+                <td>20</td>
+            </tr>
+            
+            
+        </table>----->
+        
+        
+        
+        <br><br>
+        <div style="background:silver;border-radius:10px;width:30%;text-align:center;box-shadow:0 0 10px 3px none">
+       <h3 style="color:beige;padding:10px"> <tt>BOXING</tt></h3>
+       
+       </div>
+       
+       <br>
+        <h1 style="font-size:30px"></h1>
+        <br>
+        <tt>Semudde muzamir <span style="color:beige">Vs</span> zebra junior<br>owen kibira<span style="color:beige">Vs</span> Matovu ukasha<br><br>
+        
+        <img style="width:200px;height:200px;border-radius:15px;box-shadow: 0 0 10px 3px black" src="images.jpg"/><br>
+        
+        
+        <br>Lugogo</tt>
+        <br><br></div>
+        
+        <br>
+        
+        <div style="background:linear-gradient(lightblue,lightblue);padding:3px;border-radius:15px;box-shadow: 0 0 10px 3px lightblue">
+       <h2 style="color:black;text-shadow:1px 0px silver;outline-style:outse"><tt> BETTING KNOWLEDGE<br>FREE</tt><br></h2><h1><big style="font-size:100px;color:gray">🏟&nbsp<p style="color:maroon;font-size:18px"><sup><t>WIN WITH US</tt><br><h5></h5></sup></p></big></h1><br>
+       <h3 style="color:black">V.I.P </h3>
+       
+       <h5 style="color:silver">WIN</h5>
+       
+      <tt><p style="color:white"><tt>Arsenal</tt></p></tt><br>
+       
+       <!----<h5 style="color:silver">OVER</h5>
+       <p style="color:beige">
+           
+         Bayern<br>
+         madrid  
+       </p>---->
+       
+        <br><br>
+        <h3 style ="color:black;background:silve;padding:5px;border-radius:5px">ORDINARY</h3>
+        
+        <!---<script type='text/javascript'src='//pl23317227.cpmrevenuegate.com/39/78/dc/3978dc519214e6e90f17cecd6f3d0b6a.js'></script>--->
+        
+        
+        
+        
+       <h5 style="color:silver;background:">WIN</h5> 
+       
+       <p style="color:white"><tt style="color:white">Barcelona <br> Realmadrid
+        </tt>
+        </p>
+        
+        <br>
+        <h5 style="color:silver">OVER
+        <br>
+        2.5
+        
+        </h5>
+        
+        <p style="color:white">
+           <tt style="color:white;text-shadow:0px 0px ">
+          Realmadrid<br>
+          Barcelona<br>
+          Liverpool</tt>
+          
+          <br><br>
+          <h5 style="color:silver">
+              OVER<br>
+              1.5
+          </h5>
+          <p style="color:white;text-shadow:0px 0px "><tt>
+            Chelsea<br>
+            Totenham<br>  
+              
+          </tt></p>
+           
+            
+        </p>
+        <br>
+        
+        <h5 style="color:silver">GOAL-GOAL</h5>
+        <p style="color:white"><tt>
+            
+            Man-United
+            <br>
+            Brighton
+            
+        </tt></p><br><br>
+        
+        
+       <!--- <h3 style="color:silver">RUNNING TICKET </h3>
+     
+     <p style="color:beige">liverpool[Win]</p>
+     ---->
+     
+     
+    <!--- <p style="font-0size:11px;color:beige;background:silver;border-radius:5px;width:75px;padding:4px"><tt>Updated---><br><br><br></tt><input style="width:17px;border-radius:50%;background:linear-gradient(silver,black,white);height:17px;float:center;outline-style:outset" type="time"></tt></p><br><br>
+    
+    <p style="font-family:'Roboto Mono',monospace">Bytes<span style="font-family:'comic Neue',cursive">Tone&trade;</span></p><br>
+    
+    <!----THIS WEBAPP WAS BUILD BY SEGSOFTWARE SINCE 2023 AND---->
+     
+     <!--<iframe src="http://www.livescore.in" style="display:block;line-height:0;margin:0px !important;"frameboarder="0"scrolling="yes"width="270"height="auto"></iframe>-->
+     <!---
+     
+     <p style="color:coral"><tt> <br>For support:<br><b style="color:silver">pay</b><br><br><a href="tel:*185*9*6580045*5000*1&#10723;"><tt style="background-color:red;padding:3px;border-radius:5px;font-family:Times New Roman">airtel</tt></a></tt></p><br><big style="font-family:Times New Roman;color:black;background-color:yellow;padding:5px;border-radius:5px;width:25%;align:center"><tt style="color:black"><a style="color:black"  href="tel:*165#">MTN</tt></a></big> --->
+     
+     <!---<script>
+         window.open("tel:+256703840551");
+     </script>
+     <table>
+         <tr onclick="window.open('tel:+256703840551&#35');">
+             <td>phone:+256703840551</td>
+             
+         </tr>
+     </table>--->
+        
+            
+             
+           
+            
+        
+        
+        
+        
+        
+        
+        
+        
+        
+       <!--- <marquee scrollamount=2 style="font-family:Times New Roman;width:100%;background-image:linear-gradient(silver,silver)"><br><small style="color:white"><p style="font-size:11px;padding:4px;border-radius:2px;background-image:linear-gradient(gold,)"><tt>THIS IS YOUR HOME OF WINNING 🔞 BET RESPONSIVELY GAMBLING CAN BE HARMFUL TO YOUR MENTAL HEALTHY LIKE  HEART ATTACK,MADNESS AND STIGMA, SUCCESS🎉</tt></p></small></marquee><br>
+        --->
+ <div style="background-color:darkblue;border-radius:2px;box-shadow:0 0 10px 3px black">  
+     <p style="color:gold;padding:3px;text-shadow:0px px white;box-shadow: 0 0 10px 3px black;"><tt><h2 style="color:silver">SPORTS TALK</h2><br><span style="color:white">TALK ABOUT TODAY'S FOOTBALL MATCHES?<h1><marquee scrollamount="2" direction="up"><h1 style="text-align:center">⚽️</h1></marquee></h1></span></tt></p> <i class ="fa fa-sports"></i> 
+     
+ <iframe style ="height:400px;width:101%;border-radius:8px" src="https://organizations.minnit.chat/610176119459292/Sportstalk"></iframe>
+ 
+         
+            <!---<script async ="async"data-cfasync="false"src="//pl22539641.highcpmgate.com/d546712373b7a7ea787d1a2508a2d19a/invoke.js"></script>
+            <div id ="container-d546712373b7a7ea787d1a2508a2d19a"></div>--->
+            
+           
+        </div>
+        
+       <!---<div style="background:green;color:orange;padding:8px 10px;border-radius:10px;width:68%;font-size:13px">
+       <tt><p>QUOTES</p></tt>
+        
+        </div><br>
+        
+        <p style="font-family:Robo;padding:10px;font-size:px"><tt>Never loose hope that is not the end of the world.<br><br>Hardworking is the the key to success. </tt></p></small>-->
+        
+        
+        
+       <!----- <br><br><p style="text-align:center;padding:13px;background-color:coral;font-size:14px"><tt>special offer</tt></p>
+        
+        <br>
+        <p style="font-size:13px;font-family:Roboto;text-align:center;padding:"><tt>Let us enjoy together from here<h1>🔞</h1></tt><span style="color:black"><a href="https://www.profitablegatecpm.com/pjhamd6s?key=8c720c25733c12eb964be5717c27b62a"> <br><i style="color:;font-size:18px;background:skyblue;padding:5px;border-radius:10px;font-size:12px;font-family:Times New Roman" class ="fa fa-downloa"><tt>Join<span style="color:red"></span></tt></a></i></span></tt></p><br>
+      <!---)  <a href="https://beta.publisher.adsterra.com/referral/1zgxHyaEg3"><img alt="banner"src="https://landings-cdn.adsterratech.com/referralBanners/gif/120×60_adsterra_reff.gif"/></a>--->
+        
+        
+        
+        
+       
+        
+            
+       
+       
+          
+      
+       
+           
+           
+        
+        
+        
+        
+        
+        
+        
+   
+       
+        
+        
+        
+        
+        
+        
+        
+        
+        <!----
+        <div style="background:black;border-radius:1px;padding:10px">
+        <big><i style="font-family:Times New Roman;color:white;font-size:15px"><strong><span style="color:red">NOTE:</span>Are you looking for ajob? or have ajob?</strong></i></big><br>--->
+       <!--- <h4 style="color:white;font-size:12px"><tt><br style="color:red"><tt style="color:silver"><a style="color:silver" href="https://kola.tiiny.site"></a>---><!---<button style="color:white;border-radius:30%;background-color:silver;padding:4px;font-family:Times New Roman;font-size:12px;text-shadow:1px 0px black"><tt>press</tt></button></a><br></tt></tt></h4>
+        
+        
+        
+        
+        
+        
+        
+        </div>--->
+        
+        
+        
+        <!---<div style="background:white;max-width:100%;height:auto;padding:10px;border-radius:10px;text-shadow:2px 2px white">
+            <small></small>--->
+            <!--- <h2 style="color:black;text-shadow:2px 2px white">DO YOU NEED A <span style="color:red">LOVER</span><br> VIST<br><br><br><br>
+             
+             <tt style="color:black;font-size:10px"><br>
+             <a style="font-size:30px;color:silver" href="https://school1.tiiny.site"><h6>press</h6><i style="color:coral" class ="fa fa-link"></i></a>
+             
+             
+             
+             </tt></h2>--->
+              
+             <h3 style="text-align:center">
+                 <marquee style="background:linear-gradient(silver,white);padding:7px;color:black;border-radius:5px;box-shadow:0 0 15px 3px blue" scrollamount=1>
+               <p style="font-size:12px;border-radius:5px"><tt> UKRAINE IS FIGHTING AGAINST RUSSIA@ IRAN IS ABOUT TO WAR ENGLAND.</tt></p></h3>
+                 </marquee>
+                 <!----<script async="async"data-cfasync="false"src="//pl22539641.profitablecpm.com/d546712373b7a7ea787d1a2508a2d19a/invoke.js"></script>   
+ <div id ="container-d546712373b7a7ea787d1a2508a2d19a"></div>            
+                 
+                 </b><b><big style="font-size:30px"></big></h3>
+             <p style="font-size:12px;text-align:justify;"></p> ---> 
+                
+            </small>
+            
+        
+         
+         
+      
+      
+        
+         
+         
+         
+         
+         </small>
+         
+         </div>
+         
+        </div>
+      
+   
+    
+    
+   
+        
+    
+     
+        
+        
+        
+    
+    <!---<div>
+    <div class ="container">
+        <div class ="yellow"></div>
+        <div class ="red"></div>
+        <div class ="blue"></div>
+        <div class ="violet"></div>
+        
+        
+    </div>
+    </div>--->
+    
+    
+            
+    
+    <!----THIS FOR COMMENT SECTION--->
+    
+            
+            
+            
+            
+       
+   
+   
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+          
+          
+          
+          
+  <div style="background:black;textalign:center;width:100%;height:110%;box-shadow:0 0 10px 3px black">
+      
+      
+      <ul type="none">
+          <li>
+              <a href="tel:+256703840551">
+                  <h1 style="float:left"><i style="color:Aliceblue;" class ="fa fa-phone"></i></h1></a>
+          </li>
+          
+          <li style="color:white"><a href ="mailto:segayiabdul67@gmail.com"><h1 style="float:right"><i style="color:Aliceblue" class="fa fa-envelope"></i></h1></a></li>
+          <p style="text-align:center"><tt style="color:silver;text-align:center;font-size:px;font-family:Times New Roma"><small>share via</small></tt></p>
+          <li style="text-align:center">
+         <a href="https://www.facebook.com/sharer.php?u=https://indah.tiiny.site"><i style="color:white;background:blue;border-radius:50%;width:6%;padding:1px"<i class ="fa fa-facebook"></i></a>&nbsp
+         
+         <a style="color:white" href="https://twitter.com/intent/tweet?text=https://indah.tiiny.site"><i style="background:white;width:6%;border-radius:50%;padding:1px;color:black;text-shadow:1px 2px black;text-shadow:1px 1px whit" class="fa fa-twitte">X</i></a>&nbsp
+         
+         <a style="color:lightblue" href="https://telegram.me/share/url?url=https://indah.tiiny.site&text="target="_blank"><i style="background:;border-radius:50%;width:7%;padding:px;color:" class="fa fa-telegram"></i></a>&nbsp
+         <a href="whatsapp://send?text=https://indah.tiiny.site"data-action"share/whatsapp/share"><i style="background-color:green;border-radius:6px;padding:2px;" class="fa fa-whatsapp"></i></a>&nbsp
+         
+         <a>
+             <i class ="fa fa-linkedi"></i>
+         </a>
+         
+         </li>
+          
+          
+      </ul><br><br>
+      
+      <small><h4 style ="color:silver;text-align:center;font-size:12px"><tt style="background-color:black"><i class="fa fa-copyright"></i> copyrights are reserved <br><span style="font-family:Times New Roman">2025</span><br><small style="color:silver"></tt></small></h4></p></small>
+      
+      <img src="images.jpg" style="width:0px;height:0px">
+      <h4 style="color:silver;text-align:center;background:none;font-size:15px"><tt style="font-family:Times New Roman"><br>
+        <small style ="font-family:'Roboto Mono',monospace;">Bites<span style="font-family:'Comic Neue',cursive;color:">Tone&trade;</span></small><br><i style="color:silver;font-size:15px" class ="fa fa-loc"></i>
+          <br>
+      </tt></
+      
+  </div>
+  
+  
+ 
+  
+  
+  
+ 
+  <script
+   src='http://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.min.js'></script> 
+   
+   </img>
+  
+  
+  
+   
+  </body>    
+
+  </html>
+  
+  
+  
